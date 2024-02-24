@@ -23,5 +23,5 @@ values ('$user', '$email', '$mobile','$comment')";
 
 mysqli_query($con,$query);
 
-header ('location:index.php');
+header ('location:index.html');
 ?>
